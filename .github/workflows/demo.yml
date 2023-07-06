@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: Print
         run: echo Hello GH Actions!
+      - name: Print a fwe lines!
+        run: 
+          echo First line!
+          echo Second line!
